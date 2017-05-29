@@ -11,3 +11,4 @@ app/google-services.json
 *.iml
 *.apk
 *.ap_
+*.idea

@@ -13,7 +13,8 @@ tools:context="io.kamara.firebase.quickstart.android.MainActivity">
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:textSize="18dp"
+        android:text="Click on fab to verify your setup!"
 />
 
 </RelativeLayout>
