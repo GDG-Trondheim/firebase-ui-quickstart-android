@@ -31,7 +31,7 @@ A simple a quickstarts project for getting you started with Firebase for Android
   keytool -exportcert -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
   ```
 
-- Go to Auth tab the Firebase Console and enable your Sign-in methods
+- Go to Auth tab in the Firebase Console and enable your Sign-in methods
 - Run the on Android device or emulator.
 - Happy coding
 
