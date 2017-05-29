@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "io.kamara.firebase.quickstart.android"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    def junitVersion = '4.12'
+    def espressoVersion = '2.2.2'
+    def supportLibraryVersion = '25.1.1'
+    def firebaseUiVersion = '1.2.0'
+    def butternifeVersion = '8.6.0'
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    androidTestCompile("com.android.support.test.espresso:espresso-core:$espressoVersion", {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    compile "com.android.support:design:$supportLibraryVersion"
+    compile "com.android.support:appcompat-v7:$supportLibraryVersion"
+
+    // FirebaseUI Database only
+    compile "com.firebaseui:firebase-ui-database:$firebaseUiVersion"
+
+    // FirebaseUI Auth only
+    compile "com.firebaseui:firebase-ui-auth:$firebaseUiVersion"
+
+    // FirebaseUI Storage only
+    compile "com.firebaseui:firebase-ui-storage:$firebaseUiVersion"
+
+    // Single target that includes all FirebaseUI libraries above
+    compile "com.firebaseui:firebase-ui:$firebaseUiVersion"
+
+    // Butterknife
+    compile "com.jakewharton:butterknife:$butternifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butternifeVersion"
+
+    testCompile "junit:junit:$junitVersion"
+}
+
+
+
+apply plugin: 'com.google.gms.google-services'
