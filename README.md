@@ -40,7 +40,7 @@ A simple a quickstarts project for getting you started with Firebase for Android
 - Android SDK.
 - Android 7.0 (API 25) .
 - Android SDK Tools
-- Android SDK Build tools 23.0.2
+- Android SDK Build tools 25.0.2
 - Android Support Repository
 - Android Support library
 - Google Play Services
