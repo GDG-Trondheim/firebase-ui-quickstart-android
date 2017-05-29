@@ -31,16 +31,16 @@ A simple a quickstarts project for getting you started with Firebase for Android
   keytool -exportcert -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
   ```
 
-- Go to Auth tab the Firebase Console and enable your Sign-in methods
-- Run the on Android device or emulator.
-- Happy coding
+- Go to Auth tab in the Firebase Console and enable your Sign-in methods
+- Run the app on Android device or emulator.
+- Well done, you made it to the end! Happy coding
 
 
 ## Requirements
 - Android SDK.
 - Android 7.0 (API 25) .
 - Android SDK Tools
-- Android SDK Build tools 23.0.2
+- Android SDK Build tools 25.0.2
 - Android Support Repository
 - Android Support library
 - Google Play Services
