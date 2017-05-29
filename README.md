@@ -32,8 +32,8 @@ A simple a quickstarts project for getting you started with Firebase for Android
   ```
 
 - Go to Auth tab in the Firebase Console and enable your Sign-in methods
-- Run the on Android device or emulator.
-- Happy coding
+- Run the app on Android device or emulator.
+- Well done, you made it to the end! Happy coding
 
 
 ## Requirements
