@@ -306,7 +306,7 @@ public class DemoActivity extends AppCompatActivity {
                });
     }
 
-    private class Story {
+    public static class Story {
         public String downloadUrl;
         public String title;
         public String uuid;
