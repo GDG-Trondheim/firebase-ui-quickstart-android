@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+    <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+    />
+
+    <TextView
+            android:id="@+id/selectPhotoTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap on image to select photo"
+            android:textSize="16sp"
+            android:layout_below="@+id/photoImageView"
+    />
+
+    <Button
+            android:id="@+id/authBtn"
+            android:text="Sign-In"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectPhotoTip"
+    />
+    <Button
+            android:id="@+id/uploadBtn"
+            android:text="Upload"
+            android:layout_below="@+id/authBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    />
+    <TextView
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@+id/uploadBtn"
+    />
+</RelativeLayout>
