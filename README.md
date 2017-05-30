@@ -31,13 +31,12 @@ There is also a demo Activity that demonstrate users authentication, photo uploa
   ```
   keytool -exportcert -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
   ```
-
+  
 - Go to Authentication tab in the Firebase Console and enable your Sign-in methods
 - Run the app on Android device or emulator with Google Play Services
 - Well done, you are almost there! 
 - Tap on the FloatingActionButton in the app to verify you setup
 - Clap for yourself, because you made it to the end! Happy coding
-
 
 ## Requirements
 - Android SDK.
